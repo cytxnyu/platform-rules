@@ -1,0 +1,6 @@
+interface:
+  display_name: "平台规则"
+  short_description: "核查七个平台官方规则更新，审查多模态内容并给出整改、获客与变现路径"
+  default_prompt: "请用 $platform-rules 检查这些素材，先核查官方规则更新，再给我具体问题、最小改法、适合的平台及合规获客和变现渠道。"
+policy:
+  allow_implicit_invocation: true

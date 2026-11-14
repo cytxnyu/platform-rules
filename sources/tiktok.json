@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "platform": "tiktok",
+  "name": "TikTok",
+  "official_hosts": [
+    "ads-useast2a.tiktok.com",
+    "ads.tiktok.com",
+    "ads.us.tiktok.com",
+    "newsroom.tiktok.com",
+    "seller-us.tiktok.com",
+    "seller.tiktokglobalshop.com",
+    "support.tiktok.com",
+    "t.tiktok.com",
+    "www.tiktok.com"
+  ],
+  "accept_language": "en-US,en;q=0.9",
+  "crawl_patterns": [
+    "tiktok.com/(community-guidelines|safety/en/policies-and-engagement|legal/page/.*branded)",
+    "support.tiktok.com/en/(safety-hc|business-and-creator|live-gifts-wallet)",
+    "ads[^/]*.tiktok.com/(help/article|resources/help/article)/.*(polic|standard|require|disclos|review)"
+  ],
+  "completeness": "not_established",
+  "sources": [
+    {
+      "id": "community",
+      "title": "TikTok Community Guidelines（官方入口会重定向）",
+      "url": "https://www.tiktok.com/community-guidelines/en/",
+      "kind": "policy",
+      "scopes": [
+        "community"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "en",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "new-overview",
+      "title": "TikTok Community Guidelines current overview",
+      "url": "https://www.tiktok.com/safety/en/policies-and-engagement/overview",
+      "kind": "policy",
+      "scopes": [
+        "community"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "en",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "commercial-disclosure",
+      "title": "Promoting a brand, product, or service",
+      "url": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "ads",
+        "monetization"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "en",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "commercial-disclosure-ads",
+      "title": "Commercial Content Disclosure for creators",
+      "url": "https://ads.tiktok.com/resources/help/article/about-the-content-disclosure-setting-for-creators",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "ads"
+      ],
+      "index": false,
+      "region": "global_and_regional",
+      "language": "en",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "ads-index",
+      "title": "TikTok Advertising Policies",
+      "url": "https://ads-useast2a.tiktok.com/resources/help/article/tiktok-advertising-policies?lang=en",
+      "kind": "index",
+      "scopes": [
+        "ads",
+        "lead_generation"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "en",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "ads-us-review",
+      "title": "Advertising and Ad Review（美国）",
+      "url": "https://ads.us.tiktok.com/help/article/advertising-on-tiktok-first-things-to-note?lang=en",
+      "kind": "policy",
+      "scopes": [
+        "ads"
+      ],
+      "index": false,
+      "region": "US",
+      "language": "en",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "shop-us",
+      "title": "TikTok Shop US Seller Academy / Policy entry",
+      "url": "https://seller-us.tiktok.com/university/home",
+      "kind": "official_service",
+      "scopes": [
+        "commerce",
+        "live",
+        "monetization"
+      ],
+      "index": true,
+      "region": "US",
+      "language": "en",
+      "min_chars": 150,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "shop-global",
+      "title": "TikTok Shop Global Selling",
+      "url": "https://seller.tiktokglobalshop.com/",
+      "kind": "official_service",
+      "scopes": [
+        "commerce",
+        "live",
+        "monetization"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "en",
+      "min_chars": 150,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    }
+  ]
+}

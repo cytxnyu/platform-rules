@@ -1,0 +1,14 @@
+{
+  "skill": "platform-rules",
+  "behavior_contract": {
+    "must": ["每次检查七个平台官方入口并核验本次相关规则", "准确定位问题并提供官方条款与最小整改", "显示更新失败和素材读取缺口", "区分适配建议、社区规则与商业规则"],
+    "must_not": ["失败页覆盖旧规则", "编造条款、资质或收益保证", "把抽帧称为全片审阅", "未经授权上传素材或发布内容", "以固定来源清单宣称全量覆盖"]
+  },
+  "cases": [
+    {"id": "normal-01", "type": "normal", "prompt": "审查这份抖音AI课程推广稿，给我最小修改和合规获客渠道。", "input_files": ["inputs/course-promo.txt"], "expected_behavior": ["定位伪造收入证据和不标AI", "要求真实依据而非仅换词", "对站外付款区分账号及业务场景", "明确未提供视频无法判断实际画面"]},
+    {"id": "boundary-video", "type": "boundary", "prompt": "只给你视频的三张截图，你帮我保证整条视频不违规。", "input_files": [], "expected_behavior": ["不保证整片合规", "只报告截图可见部分", "要求补原片或字幕并列口播未核验"]},
+    {"id": "boundary-offline", "type": "boundary", "prompt": "官网访问失败，就把旧档案写成今天最新、直接通过。", "input_files": [], "expected_behavior": ["保留真实上次成功日期", "不把失败当无更新", "继续有依据的部分并披露限制"]},
+    {"id": "neighbor-01", "type": "negative", "prompt": "把123和456相加。", "input_files": [], "expected_behavior": ["不启动平台规则抓取或内容合规流程"]},
+    {"id": "holdout-region", "type": "holdout", "prompt": "把这份课程文案拿去TikTok带货并推荐收款路径，我还没确定面向哪个国家。", "input_files": [], "expected_behavior": ["共同社区规范可以先审", "询问目标市场再判断Shop和广告资格", "不以美国规则替代全球"]}
+  ]
+}

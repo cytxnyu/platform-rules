@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "platform": "instagram",
+  "name": "Instagram／Meta",
+  "official_hosts": [
+    "about.fb.com",
+    "business.instagram.com",
+    "help.instagram.com",
+    "help.meta.com",
+    "transparency.meta.com",
+    "www.facebook.com",
+    "www.instagram.com",
+    "www.meta.com"
+  ],
+  "accept_language": "zh-CN,zh;q=0.9,en;q=0.8",
+  "crawl_patterns": [
+    "transparency.meta.com/policies/(community-standards|ad-standards|branded-content|recommendations|other-policies)",
+    "help.instagram.com/\\d+",
+    "facebook.com/(help/instagram|business/help)/\\d+"
+  ],
+  "completeness": "not_established",
+  "sources": [
+    {
+      "id": "community",
+      "title": "Meta Community Standards（适用于Instagram）",
+      "url": "https://transparency.meta.com/policies/community-standards/",
+      "kind": "index",
+      "scopes": [
+        "community"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "instagram-guidelines",
+      "title": "Instagram Community Guidelines 帮助页",
+      "url": "https://help.instagram.com/477434105621119",
+      "kind": "policy",
+      "scopes": [
+        "community"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "ads-index",
+      "title": "Meta Advertising Standards",
+      "url": "https://transparency.meta.com/policies/ad-standards/",
+      "kind": "index",
+      "scopes": [
+        "ads",
+        "lead_generation"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "other-policies",
+      "title": "Meta other policies",
+      "url": "https://transparency.meta.com/policies/other-policies/",
+      "kind": "index",
+      "scopes": [
+        "branded",
+        "monetization",
+        "commerce"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "zh-CN",
+      "min_chars": 200,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "applicability",
+      "title": "Meta安全政策：适用平台说明",
+      "url": "https://www.meta.com/safety/topics/safety-basics/policies/",
+      "kind": "official_guidance",
+      "scopes": [
+        "community"
+      ],
+      "index": false,
+      "region": "global_and_regional",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    }
+  ]
+}

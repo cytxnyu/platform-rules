@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "platform": "xiaohongshu",
+  "name": "小红书",
+  "official_hosts": [
+    "ad.xiaohongshu.com",
+    "agree.xiaohongshu.com",
+    "creator.xiaohongshu.com",
+    "fe.xiaohongshu.com",
+    "pgy.xiaohongshu.com",
+    "school.xiaohongshu.com",
+    "www.xiaohongshu.com"
+  ],
+  "accept_language": "zh-CN,zh;q=0.9,en;q=0.8",
+  "crawl_patterns": [
+    "agree.xiaohongshu.com/h5/terms/",
+    "xiaohongshu.com/(crown/community|hina/basic-criterion|help/detail|rule/(detail|list)|next_help/docs)"
+  ],
+  "completeness": "not_established",
+  "sources": [
+    {
+      "id": "community-norms",
+      "title": "小红书社区规范",
+      "url": "https://agree.xiaohongshu.com/h5/terms/ZXXY20221213003/-1",
+      "kind": "policy",
+      "scopes": [
+        "community"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "community-convention",
+      "title": "小红书社区公约",
+      "url": "https://www.xiaohongshu.com/crown/community/agreement?fullscreen=true",
+      "kind": "policy",
+      "scopes": [
+        "community"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "convention-pgy",
+      "title": "蒲公英：小红书社区公约2.0",
+      "url": "https://pgy.xiaohongshu.com/help/detail?id=1eda0a065dd894063c2e029a49e8f6a1&userType=4",
+      "kind": "policy",
+      "scopes": [
+        "community",
+        "branded"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "live-agreement",
+      "title": "小红书直播服务协议",
+      "url": "https://agree.xiaohongshu.com/h5/terms/ZXXY20220401002/-1",
+      "kind": "policy",
+      "scopes": [
+        "live"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "live-norms",
+      "title": "小红书社区直播规范",
+      "url": "https://www.xiaohongshu.com/hina/basic-criterion",
+      "kind": "policy",
+      "scopes": [
+        "live"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "commerce-index",
+      "title": "小红书电商规则中心",
+      "url": "https://school.xiaohongshu.com/rule/list/134",
+      "kind": "index",
+      "scopes": [
+        "commerce",
+        "live",
+        "lead_generation"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 200,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "live-commerce",
+      "title": "直播推广及交易导流规范（官方电商学习中心）",
+      "url": "https://school.xiaohongshu.com/rule/detail/5d67e65f0000000000000000/5fd1d5174ca01600190fcf33",
+      "kind": "policy",
+      "scopes": [
+        "commerce",
+        "live",
+        "lead_generation"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "ads-norms",
+      "title": "聚光：广告投放准入与审核规范",
+      "url": "https://ad.xiaohongshu.com/next_help/docs/8dc5bd9c45c9a90cb9912f3400d43f92",
+      "kind": "policy",
+      "scopes": [
+        "ads",
+        "lead_generation"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "internet-ads",
+      "title": "聚光：互联网行业规则",
+      "url": "https://ad.xiaohongshu.com/next_help/docs/71c37fc5fe93f0f4dc57d87925850491",
+      "kind": "policy",
+      "scopes": [
+        "ads",
+        "lead_generation"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "branded-review",
+      "title": "蒲公英：审核流程与常见问题",
+      "url": "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "lead_generation"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "pgy-lead-generation",
+      "title": "蒲公英导流规则",
+      "url": "https://pgy.xiaohongshu.com/help/detail?id=d2027d1aa0ed8b75e76da4c2ca762e2d&userType=4",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "lead_generation"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "url": "https://pgy.xiaohongshu.com/help/detail?id=1eda0a065dd894063c2e029a49e8f6a1&userType=4",
+        "relation": "official_navigation_click",
+        "label": "蒲公英导流规则"
+      },
+      "effective_date": "2025-10-13"
+    },
+    {
+      "id": "pgy-branded-legal",
+      "title": "内容合作笔记法律法规要求",
+      "url": "https://pgy.xiaohongshu.com/help/detail?id=ee4357cb4788db35031f8a6711ecc3a1&userType=4",
+      "kind": "policy",
+      "scopes": [
+        "branded"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "url": "https://pgy.xiaohongshu.com/help/detail?id=1eda0a065dd894063c2e029a49e8f6a1&userType=4",
+        "relation": "official_navigation_click",
+        "label": "内容合作笔记法律法规要求"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "pgy-commercial-compliance",
+      "title": "蒲公英商业合规",
+      "url": "https://pgy.xiaohongshu.com/help/detail?id=f9573834030564d57789ad5a9ee7545a&userType=4",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "ads"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "url": "https://pgy.xiaohongshu.com/help/detail?id=1eda0a065dd894063c2e029a49e8f6a1&userType=4",
+        "relation": "official_navigation_click",
+        "label": "商业合规"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "pgy-ad-referral",
+      "title": "聚光广告规范（蒲公英导流规则转引入口）",
+      "url": "https://ad.xiaohongshu.com/help/docs?id=4305",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "lead_generation",
+        "ads"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_page_link",
+        "url": "https://pgy.xiaohongshu.com/help/detail?id=d2027d1aa0ed8b75e76da4c2ca762e2d&userType=4"
+      },
+      "effective_date": null
+    }
+  ]
+}

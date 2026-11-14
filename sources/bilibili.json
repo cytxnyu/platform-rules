@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "platform": "bilibili",
+  "name": "哔哩哔哩",
+  "official_hosts": [
+    "activity.hdslb.com",
+    "cm.bilibili.com",
+    "huahuo.bilibili.com",
+    "link.bilibili.com",
+    "live.bilibili.com",
+    "member.bilibili.com",
+    "www.bilibili.com"
+  ],
+  "accept_language": "zh-CN,zh;q=0.9,en;q=0.8",
+  "crawl_patterns": [
+    "bilibili.com/(blackboard|studio/convention|p/html/live-app-help|p/eden/guide)"
+  ],
+  "completeness": "not_established",
+  "sources": [
+    {
+      "id": "community",
+      "title": "bilibili社区公约及目录",
+      "url": "https://member.bilibili.com/studio/convention/",
+      "kind": "index",
+      "scopes": [
+        "community"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 200,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "agreements",
+      "title": "哔哩哔哩协议汇总",
+      "url": "https://www.bilibili.com/blackboard/topic/activity-cn8bxPLzz.html",
+      "kind": "index",
+      "scopes": [
+        "community",
+        "monetization"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 200,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "live-agreement",
+      "title": "哔哩哔哩直播服务协议",
+      "url": "https://live.bilibili.com/p/html/live-app-help/index.html",
+      "kind": "policy",
+      "scopes": [
+        "live"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "live-guide",
+      "title": "直播规范与主播指南目录",
+      "url": "https://link.bilibili.com/p/eden/guide",
+      "kind": "index",
+      "scopes": [
+        "live"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 200,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "live-commerce",
+      "title": "直播商品信息分享功能相关规则",
+      "url": "https://www.bilibili.com/blackboard/live/activity-1r4ElkA8AW.html",
+      "kind": "policy",
+      "scopes": [
+        "commerce",
+        "live",
+        "branded"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "huahuo",
+      "title": "花火商业合作平台",
+      "url": "https://huahuo.bilibili.com/",
+      "kind": "official_service",
+      "scopes": [
+        "branded",
+        "monetization"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 150,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "promotion-governance-20240613",
+      "title": "关于违规推广行为的治理公告（二）",
+      "url": "https://www.bilibili.com/opus/942458606667694096",
+      "kind": "governance_notice",
+      "scopes": [
+        "community",
+        "branded",
+        "lead_generation"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 300,
+      "published_date": "2024-06-13",
+      "effective_date": null,
+      "provenance": {
+        "type": "official_account_notice",
+        "publisher": "哔哩哔哩社区小管家",
+        "url": "https://www.bilibili.com/opus/942458606667694096",
+        "located_on": "2026-11-02",
+        "note": "Official governance publisher shown on opened page; not treated as a policy solely because of its domain."
+      }
+    },
+    {
+      "id": "ai-label-20250829",
+      "title": "关于AI生成内容有序标识的公告",
+      "url": "https://www.bilibili.com/opus/1106496554576904197",
+      "kind": "governance_notice",
+      "scopes": [
+        "community",
+        "ai_label"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 250,
+      "published_date": "2025-08-29",
+      "effective_date": null,
+      "provenance": {
+        "type": "official_account_notice",
+        "publisher": "哔哩哔哩治理小分队",
+        "url": "https://www.bilibili.com/opus/1106496554576904197",
+        "located_on": "2026-11-02",
+        "note": "Official governance publisher shown on opened page; label UI placement subsequently updated by 2026-05-15 notice."
+      }
+    },
+    {
+      "id": "ai-governance-20260515",
+      "title": "哔哩哔哩关于开展清朗·整治AI应用乱象专项公告",
+      "url": "https://www.bilibili.com/opus/1202507670848798745",
+      "kind": "governance_notice",
+      "scopes": [
+        "community",
+        "ai_label",
+        "lead_generation"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 300,
+      "published_date": "2026-05-15",
+      "effective_date": null,
+      "provenance": {
+        "type": "official_account_notice",
+        "publisher": "哔哩哔哩治理小分队",
+        "url": "https://www.bilibili.com/opus/1202507670848798745",
+        "located_on": "2026-11-02",
+        "note": "Official governance publisher shown on opened page; read full notice online. Distinct effective date is not stated."
+      }
+    },
+    {
+      "id": "ads",
+      "title": "哔哩哔哩营销平台",
+      "url": "https://cm.bilibili.com/",
+      "kind": "official_service",
+      "scopes": [
+        "ads",
+        "lead_generation"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 150,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "content-cooperation-help",
+      "title": "内容合作（商单）相关帮助：商业声明与合作渠道",
+      "url": "https://www.bilibili.com/blackboard/help.html#/?qid=341",
+      "kind": "help_policy",
+      "scopes": [
+        "branded",
+        "monetization",
+        "disclosure"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 600,
+      "effective_date": null,
+      "provenance": {
+        "type": "official_rule_link",
+        "url": "https://member.bilibili.com/studio/convention/content?index=2-9&navhide=1",
+        "located_on": "2026-11-02",
+        "note": "Source fragment selects cooperation FAQ. Expanded questions 1,6,8,9,12 in browser; do not treat as the entire help center."
+      }
+    },
+    {
+      "id": "creator-marketing-map",
+      "title": "哔哩哔哩UP主营销地图",
+      "url": "https://www.bilibili.com/blackboard/activity-3kWIcilowK.html",
+      "kind": "official_service_index",
+      "scopes": [
+        "branded",
+        "monetization",
+        "lead_generation"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 800,
+      "effective_date": null,
+      "provenance": {
+        "type": "official_governance_notice_link",
+        "url": "https://www.bilibili.com/opus/942458606667694096",
+        "located_on": "2026-11-02",
+        "note": "Public official channel map. On-page application form expired; account eligibility not established."
+      }
+    }
+  ]
+}

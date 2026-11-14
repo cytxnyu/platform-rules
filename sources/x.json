@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "platform": "x",
+  "name": "X／推特",
+  "official_hosts": [
+    "business.twitter.com",
+    "business.x.com",
+    "help.twitter.com",
+    "help.x.com",
+    "legal.x.com",
+    "transparency.x.com",
+    "x.com"
+  ],
+  "accept_language": "en-US,en;q=0.9",
+  "crawl_patterns": [
+    "help.x.com/en/rules-and-policies/",
+    "business.x.com/en/help/ads-policies/",
+    "help.x.com/en/business-and-advertising/"
+  ],
+  "completeness": "not_established",
+  "sources": [
+    {
+      "id": "policy-index",
+      "title": "X Rules and Policies（英文完整目录）",
+      "url": "https://help.x.com/en/rules-and-policies",
+      "kind": "index",
+      "scopes": [
+        "community",
+        "live",
+        "monetization",
+        "appeal"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "en",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "rules",
+      "title": "The X Rules",
+      "url": "https://help.x.com/en/rules-and-policies/x-rules",
+      "kind": "policy",
+      "scopes": [
+        "community"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "en",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "rules-zh",
+      "title": "X规则（中文对照）",
+      "url": "https://help.x.com/zh-cn/rules-and-policies/x-rules",
+      "kind": "policy",
+      "scopes": [
+        "community"
+      ],
+      "index": false,
+      "region": "global_and_regional",
+      "language": "en",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "ads-index",
+      "title": "X Ads Policies",
+      "url": "https://business.x.com/en/help/ads-policies",
+      "kind": "index",
+      "scopes": [
+        "ads",
+        "lead_generation"
+      ],
+      "index": true,
+      "region": "global_and_regional",
+      "language": "en",
+      "min_chars": 200,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    }
+  ]
+}

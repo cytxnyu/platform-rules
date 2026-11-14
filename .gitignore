@@ -1,0 +1,15 @@
+archives/
+browser-staging/
+reviews/
+.work/
+node_modules/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.mp4
+*.wav
+*.mp3
+*.zip
+.update.lock

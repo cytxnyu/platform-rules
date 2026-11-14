@@ -1,0 +1,542 @@
+{
+  "schema_version": 1,
+  "platform": "douyin",
+  "name": "抖音",
+  "official_hosts": [
+    "95152.douyin.com",
+    "aweme.snssdk.com",
+    "creator.douyin.com",
+    "developer.open-douyin.com",
+    "fxg.jinritemai.com",
+    "lf3-cdn-tos.draftstatic.com",
+    "renzheng.douyin.com",
+    "school.jinritemai.com",
+    "sf3-cdn-tos.douyinstatic.com",
+    "support.oceanengine.com",
+    "trust.douyin.com",
+    "www.douyin.com",
+    "www.oceanengine.com",
+    "www.xingtu.cn"
+  ],
+  "accept_language": "zh-CN,zh;q=0.9,en;q=0.8",
+  "crawl_patterns": [
+    "douyin.com/(rule|support/content)",
+    "school.jinritemai.com/doudian/(web|wap)/(article|rule)",
+    "support.oceanengine.com/support",
+    "draftstatic.com/obj/",
+    "trust.douyin.com/article/\\d+",
+    "douyinstatic.com/obj/ies-hotsoon-draft/webcast_all_anchor/"
+  ],
+  "completeness": "not_established",
+  "sources": [
+    {
+      "id": "community",
+      "title": "抖音社区自律公约",
+      "url": "https://www.douyin.com/rule/policy?activeId=self_decipline",
+      "kind": "policy",
+      "scopes": [
+        "community"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "rule-index",
+      "title": "抖音规则与公告",
+      "url": "https://www.douyin.com/rule/policy",
+      "kind": "index",
+      "scopes": [
+        "community",
+        "live",
+        "commerce"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 200,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "trust",
+      "title": "抖音安全与信任中心",
+      "url": "https://95152.douyin.com/",
+      "kind": "index",
+      "scopes": [
+        "community",
+        "appeal"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 200,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "commerce-index",
+      "title": "抖音电商学习中心",
+      "url": "https://school.jinritemai.com/doudian/web/home",
+      "kind": "index",
+      "scopes": [
+        "commerce",
+        "live",
+        "monetization"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 200,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "creator-conduct",
+      "title": "新作者内容创作行为规范要求（官方课程及规则链接）",
+      "url": "https://school.jinritemai.com/doudian/web/course-series/cHVPEHxaSLoX/cHVPEHxaSLoXlHVnnzN1V3CY",
+      "kind": "official_guidance",
+      "scopes": [
+        "commerce",
+        "live",
+        "appeal"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "ads-index",
+      "title": "巨量营销帮助中心／审核规范",
+      "url": "https://support.oceanengine.com/support/?spaceId=195&visitor_source=help_main_site",
+      "kind": "index",
+      "scopes": [
+        "ads",
+        "lead_generation"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 200,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "xingtu",
+      "title": "巨量星图官方入口",
+      "url": "https://www.xingtu.cn/",
+      "kind": "official_service",
+      "scopes": [
+        "branded",
+        "monetization"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 150,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "trust-current",
+      "title": "抖音安全与信任中心当前入口",
+      "url": "https://trust.douyin.com/",
+      "kind": "index",
+      "scopes": [
+        "community",
+        "appeal"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 300,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17",
+        "note": "Official Trust Center / publisher-hosted webcast policy"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "ai-governance",
+      "title": "抖音关于开展治理AI技术滥用专项公告",
+      "url": "https://trust.douyin.com/article/15868",
+      "kind": "announcement",
+      "scopes": [
+        "community",
+        "ai"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 300,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17",
+        "note": "Official Trust Center / publisher-hosted webcast policy"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "live-conduct",
+      "title": "抖音直播行为规范",
+      "url": "https://sf3-cdn-tos.douyinstatic.com/obj/ies-hotsoon-draft/webcast_all_anchor/webcast_ban_protocol.html",
+      "kind": "policy",
+      "scopes": [
+        "live"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 300,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17",
+        "note": "Official Trust Center / publisher-hosted webcast policy"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "community-cdn-20261012",
+      "title": "抖音社区自律公约（官方CDN协议页，标注2026-10-12生效）",
+      "url": "https://sf3-cdn-tos.douyinstatic.com/obj/ies-hotsoon-draft/douyin_agreement/b94d5a1e-c676-4e99-92b5-2d5e26d2568b.html?enter_from=user_agreement",
+      "kind": "policy",
+      "scopes": [
+        "community",
+        "ai",
+        "branded",
+        "intellectual_property"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 10000,
+      "provenance": {
+        "type": "publisher_hosted_policy",
+        "located_on": "2026-10-20",
+        "note": "Online search and full official CDN text; rule center still shows 2022-09-13 footer, version discrepancy retained for review."
+      },
+      "effective_date": "2026-10-12"
+    },
+    {
+      "id": "ai-label-upgrade-20250901",
+      "title": "抖音关于升级AI内容标识功能的公告",
+      "url": "https://trust.douyin.com/article/69831756697378034?channel=safety&enter_from=channel_page",
+      "kind": "announcement",
+      "scopes": [
+        "community",
+        "ai"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 600,
+      "effective_date": "2025-09-01",
+      "provenance": {
+        "type": "official_policy_link",
+        "url": "https://www.douyin.com/draft/douyin_agreement/douyin_agreement_user.html",
+        "section": "4.5",
+        "located_on": "2026-10-20"
+      }
+    },
+    {
+      "id": "user-agreement-20260220",
+      "title": "抖音用户服务协议（2026-02-20生效）",
+      "url": "https://www.douyin.com/draft/douyin_agreement/douyin_agreement_user.html",
+      "kind": "agreement",
+      "scopes": [
+        "community",
+        "ai",
+        "intellectual_property",
+        "branded"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 5000,
+      "effective_date": "2026-02-20",
+      "provenance": {
+        "type": "official_footer",
+        "url": "https://trust.douyin.com/",
+        "located_on": "2026-10-20"
+      }
+    },
+    {
+      "id": "creator-account-management",
+      "title": "抖音创作者账号经营违规管理规则",
+      "url": "https://www.xingtu.cn/help-center/author/140379",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "monetization",
+        "community"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-28",
+        "note": "Official-domain topic search; substantive scope and date require review."
+      },
+      "effective_date": "2024-07-18"
+    },
+    {
+      "id": "xingtu-order-complaints",
+      "title": "订单投诉平台处置规则",
+      "url": "https://www.xingtu.cn/help-center/author/129537",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "monetization",
+        "community"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-28",
+        "note": "Official-domain topic search; substantive scope and date require review."
+      },
+      "effective_date": "2026-06-03"
+    },
+    {
+      "id": "xingtu-shortvideo-production",
+      "title": "抖音短视频内容制作规范及优质内容制作建议",
+      "url": "https://www.xingtu.cn/help-center/mcn/109213",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "monetization",
+        "community"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-28",
+        "note": "Official-domain topic search; substantive scope and date require review."
+      },
+      "effective_date": null
+    },
+    {
+      "id": "content-disclosure",
+      "title": "抖音内容标识使用规范",
+      "url": "https://95152.douyin.com/article/7151778480801102",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "monetization",
+        "community"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-28",
+        "note": "Official full body read via browser 2026-10-28; section 2.1(4), 2.2, Q2 and effective-date footer verified."
+      },
+      "effective_date": "2026-05-11"
+    },
+    {
+      "id": "xingtu-netservice-component",
+      "title": "网服行业组件",
+      "url": "https://www.xingtu.cn/help-center/demander/109147",
+      "kind": "official_guidance",
+      "scopes": [
+        "ads",
+        "branded",
+        "lead_generation"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-28",
+        "note": "Official topic search; specific scope is Xingtu component only, not all ordinary video posts."
+      },
+      "effective_date": null
+    },
+    {
+      "id": "xingtu-component-review",
+      "title": "星图组件审核规范",
+      "url": "https://www.xingtu.cn/help-center/demander/139817",
+      "kind": "official_guidance",
+      "scopes": [
+        "ads",
+        "branded",
+        "lead_generation"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-28",
+        "note": "Official topic search; specific scope is Xingtu component only, not all ordinary video posts."
+      },
+      "effective_date": null
+    },
+    {
+      "id": "xingtu-content-management",
+      "title": "巨量星图内容管理规范",
+      "url": "https://www.xingtu.cn/help-center/author/136203",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "ads",
+        "monetization"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "effective_date": "2026-01-01",
+      "provenance": {
+        "type": "official_domain_search",
+        "located_on": "2026-10-28",
+        "note": "Official Xingtu help-center topic search during UUMit task; publication timestamps not automatically treated as effective dates."
+      }
+    },
+    {
+      "id": "xingtu-brand-qualifications",
+      "title": "如何提升品牌创建过审率",
+      "url": "https://www.xingtu.cn/help-center/demander/113078",
+      "kind": "official_guidance",
+      "scopes": [
+        "branded",
+        "ads",
+        "monetization"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "effective_date": null,
+      "provenance": {
+        "type": "official_domain_search",
+        "located_on": "2026-10-28",
+        "note": "Official Xingtu help-center topic search during UUMit task; publication timestamps not automatically treated as effective dates."
+      }
+    },
+    {
+      "id": "xingtu-upload-qualifications",
+      "title": "投放资质上传操作指引",
+      "url": "https://www.xingtu.cn/help-center/demander/109247",
+      "kind": "official_guidance",
+      "scopes": [
+        "branded",
+        "ads",
+        "monetization"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "effective_date": null,
+      "provenance": {
+        "type": "official_domain_search",
+        "located_on": "2026-10-28",
+        "note": "Official Xingtu help-center topic search during UUMit task; publication timestamps not automatically treated as effective dates."
+      }
+    },
+    {
+      "id": "xingtu-submission-brief",
+      "title": "投稿任务brief填写规范指南",
+      "url": "https://www.xingtu.cn/help-center/demander/109133",
+      "kind": "official_guidance",
+      "scopes": [
+        "branded",
+        "ads",
+        "monetization"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "effective_date": null,
+      "provenance": {
+        "type": "official_domain_search",
+        "located_on": "2026-10-28",
+        "note": "Official Xingtu help-center topic search during UUMit task; publication timestamps not automatically treated as effective dates."
+      }
+    },
+    {
+      "id": "xingtu-insertion-experience",
+      "title": "星图植入体验优化公告（新）",
+      "url": "https://www.xingtu.cn/help-center/demander/147608",
+      "kind": "official_guidance",
+      "scopes": [
+        "branded",
+        "monetization"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "effective_date": "2025-11-12",
+      "provenance": {
+        "type": "official_domain_search",
+        "located_on": "2026-10-30",
+        "note": "Official Xingtu help-center search; full text read. Insertion guidance is scoped to inserted marketing scenes, not automatically all tutorials. Quote upgrade references the insertion notice."
+      }
+    },
+    {
+      "id": "xingtu-quote-20260818",
+      "title": "指派一口价报价升级",
+      "url": "https://www.xingtu.cn/help-center/author/208549",
+      "kind": "official_guidance",
+      "scopes": [
+        "branded",
+        "monetization"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "effective_date": "2026-08-18",
+      "provenance": {
+        "type": "official_domain_search",
+        "located_on": "2026-10-30",
+        "note": "Official Xingtu help-center search; full text read. Insertion guidance is scoped to inserted marketing scenes, not automatically all tutorials. Quote upgrade references the insertion notice."
+      }
+    }
+  ]
+}

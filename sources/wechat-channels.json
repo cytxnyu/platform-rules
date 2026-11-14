@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "platform": "wechat-channels",
+  "name": "微信视频号",
+  "official_hosts": [
+    "ad.weixin.qq.com",
+    "channels.weixin.qq.com",
+    "e.qq.com",
+    "mp.weixin.qq.com",
+    "rule.weixin.qq.com",
+    "shop.weixin.qq.com",
+    "support.e.qq.com",
+    "support.weixin.qq.com",
+    "training.tencentads.com",
+    "weixin.qq.com"
+  ],
+  "accept_language": "zh-CN,zh;q=0.9,en;q=0.8",
+  "crawl_patterns": [
+    "weixin.qq.com/cgi-bin/readtemplate",
+    "mp.weixin.qq.com/(webpoc/ruleCenter|cgi-bin/announce)",
+    "e.qq.com/ads/helpcenter/detail",
+    "ad.weixin.qq.com/docs/",
+    "support.weixin.qq.com/cgi-bin/mmtemplatepage-bin/pages/agreement/",
+    "support.e.qq.com/(home|detail)"
+  ],
+  "completeness": "not_established",
+  "sources": [
+    {
+      "id": "operations",
+      "title": "微信视频号运营规范",
+      "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=video",
+      "kind": "policy",
+      "scopes": [
+        "community",
+        "lead_generation"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "violation-guide",
+      "title": "视频号常见违规内容概览",
+      "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=video_guide",
+      "kind": "policy",
+      "scopes": [
+        "community",
+        "lead_generation"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "live-conduct",
+      "title": "微信视频号直播行为规范",
+      "url": "https://weixin.qq.com/cgi-bin/readtemplate?t=finder_live_up_privacy",
+      "kind": "policy",
+      "scopes": [
+        "live"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "creator-center",
+      "title": "视频号助手（账号相关规则需登录）",
+      "url": "https://channels.weixin.qq.com/",
+      "kind": "official_service",
+      "scopes": [
+        "community",
+        "live",
+        "monetization",
+        "appeal"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 150,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "ads-review",
+      "title": "微信广告审核规范",
+      "url": "https://e.qq.com/ads/helpcenter/detail?cid=2990&pid=7742",
+      "kind": "policy",
+      "scopes": [
+        "ads",
+        "lead_generation"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "small-task",
+      "title": "视频号小任务审核规范",
+      "url": "https://ad.weixin.qq.com/docs/269?branch_id=L8SJ_",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "monetization"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "shop",
+      "title": "微信小店官方入口（按账号和类目查看规则）",
+      "url": "https://shop.weixin.qq.com/",
+      "kind": "official_service",
+      "scopes": [
+        "commerce",
+        "live",
+        "monetization"
+      ],
+      "index": true,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 150,
+      "provenance": {
+        "type": "official_entry",
+        "located_on": "2026-10-17"
+      },
+      "effective_date": null
+    },
+    {
+      "id": "video-live-marketing",
+      "title": "微信视频号视频/直播营销信息发布规范",
+      "url": "https://support.weixin.qq.com/cgi-bin/mmsupportacctnodeweb-bin/pages/pf0txLmOJiPSy87m",
+      "kind": "policy",
+      "scopes": [
+        "branded",
+        "lead_generation",
+        "live"
+      ],
+      "index": false,
+      "region": "CN",
+      "language": "zh-CN",
+      "min_chars": 500,
+      "provenance": {
+        "type": "official_page_verified",
+        "url": "https://support.weixin.qq.com/cgi-bin/mmtemplatepage-bin/pages/agreement/pf0txLmOJiPSy87m",
+        "discovery_url": "https://youguangai.top/prompts/flow-content-topics-platform/"
+      },
+      "effective_date": "2023-05-08"
+    }
+  ]
+}
